@@ -1,6 +1,8 @@
 import './css/App.css';
 
 function App() {
+  // Set states here
+
   return (
     <div className="App">
       <header className="App-header">
