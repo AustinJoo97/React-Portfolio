@@ -1,19 +1,21 @@
 // import { useState } from 'react';
+import Projects from './projects';
+import Contacts from './contacts';
+import AboutMe from './aboutMe';
 
-export default function MainContent(props) {
-    console.log(`THIS PATH WAS CHOSEN: ${props.pathChosen}`)
-    // const [count, setCount] = useState(0);
-  
-    // const handleIncrement = () => {
-    //   setCount(count + 1);
-    // };
-  
-    // const handleDecrement = () => {
-    //   setCount(count - 1);
-    // };
-  
-    return (
-      <div >
-      </div>
+export default function MainContent({ pathChosen }) {
+    // console.log(`THIS PATH WAS CHOSEN: ${pathChosen}`)
+    // const [path, setPath] = useState(pathChosen);
+    
+    // switch(pathChosen){
+    //     case 'projectsButton': 
+    //         return (<Projects />)
+    //     case 'contactMeButton': 
+    //         return (<Contacts />)
+    //     default:
+    //         return (<AboutMe />)
+    // }
+    return(
+        <div></div>
     );
-  }
+}
