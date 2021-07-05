@@ -4,21 +4,41 @@ function App() {
   // Set states here
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <header className="appHeader">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is the header's placeholder text
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      
+      <nav>
+            <div id="myName">
+                <h1>Austin Joo</h1>
+            </div>
+
+            <select id="navDropdown">
+                <option selected="selected">Select</option>
+
+                <option id='aboutMeOption'>About Me</option>
+                <option id='projectsOption'>Projects</option>
+                <option id='contactMeOption'>Contact Me</option>
+            </select>
+
+            <div id="navDirectory">
+                <ul>
+                    <li class="links">
+                        <a id='aboutMeButton'>About Me</a>
+                    </li>
+                    <li class="links">
+                        <a id='projectsButton'>Projects</a>
+                    </li>
+                    <li class="links">
+                        <a id='contactMeButton'>Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        {/* Nav bar and name */}
     </div>
   );
 }
