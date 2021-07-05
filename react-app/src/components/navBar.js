@@ -8,7 +8,7 @@ export default function NavBar(){
               </div>
 
               <select id="navDropdown">
-                  <option selected="selected">Select</option>
+                  <option defaultValue="selected">Select</option>
 
                   <option id='aboutMeOption'>About Me</option>
                   <option id='projectsOption'>Projects</option>
@@ -17,13 +17,13 @@ export default function NavBar(){
 
               <div id="navDirectory">
                   <ul>
-                      <li class="links">
+                      <li className="links">
                           <a id='aboutMeButton' href='/aboutMe'>About Me</a>
                       </li>
-                      <li class="links">
+                      <li className="links">
                           <a id='projectsButton' href='/projects'>Projects</a>
                       </li>
-                      <li class="links">
+                      <li className="links">
                           <a id='contactMeButton' href='/contactMe'>Contact Me</a>
                       </li>
                   </ul>

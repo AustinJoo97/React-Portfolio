@@ -18,7 +18,7 @@ function App() {
               <h4>&copy; Takashi Murakami</h4>
           </div>
 
-          {/* <MainContent /> */}
+          <MainContent />
         </div>
       </div>
   )
