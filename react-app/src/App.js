@@ -12,8 +12,10 @@ function App() {
       </header>
       
       <nav>
-            <div id="myName">
-                <h1>Austin Joo</h1>
+            <div id="nameTag">
+                <h1>
+                  <a id='myName' href='/'>Austin Joo</a>
+                </h1>
             </div>
 
             <select id="navDropdown">

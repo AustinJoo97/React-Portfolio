@@ -25,11 +25,14 @@ nav{
     position: relative;
 }
 
-#myName{
+#nameTag{
     font-size: 70px;
-    color: var(--defcol1);
     width: 70%;
     padding-left: 10px;
+}
+
+#myName{
+    color: var(--defcol1);
 }
 
 #navDropdown{
