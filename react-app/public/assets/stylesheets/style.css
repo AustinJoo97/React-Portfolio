@@ -7,15 +7,15 @@ html{
 }
 
 :root {
-    --defcol1: rgb(82, 211, 211);
-    --defcol2: rgb(255, 0, 149);
+    --defcol1: #66FCF1;
+    --defcol2: #1F2833;
     --linkcol: rgb(19, 255, 19);
 }
 
 /* CSS affecting nav bar and banner of webpage */
 nav{
     display: flex;
-    height: 70px;
+    height: 80px;
     justify-content: space-between;
     background-color: var(--defcol2);
 }
@@ -45,7 +45,7 @@ nav{
 
 #navDirectory li{
     display: inline-block;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-left: 20px;
 }
 
