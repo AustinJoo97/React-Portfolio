@@ -1,16 +1,24 @@
 import Header from './components/header';
 import NavBar from './components/navBar';
 import MainContent from './components/mainContent';
+import { useState } from "react";
 // import './css/App.css';
 
 function App() {
   // Set states here
+  const [contentPath, setContentPath] = useState('/');
+
+  const changePath = (pathChosen) => {
+      setContentPath(pathChosen.target.id);
+  }
 
   return (
       <div className="app">
         <Header />
         
-        <NavBar />
+        <NavBar 
+        changePath={changePath}
+        />
 
 
         <div id="mainWrapper">
@@ -18,7 +26,9 @@ function App() {
               <h4>&copy; Takashi Murakami</h4>
           </div>
 
-          <MainContent />
+          <MainContent 
+          pathChosen={contentPath}
+          />
         </div>
       </div>
   )

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-export default function MainContent() {
-    console.log(window.location.pathname)
+export default function MainContent(props) {
+    console.log(`THIS PATH WAS CHOSEN: ${props.pathChosen}`)
     // const [count, setCount] = useState(0);
   
     // const handleIncrement = () => {

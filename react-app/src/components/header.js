@@ -1,4 +1,4 @@
-export default function Header(){
+export default function Header(props){
     return (
         <div>
             <header className="appHeader">
