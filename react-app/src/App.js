@@ -27,13 +27,13 @@ function App() {
             <div id="navDirectory">
                 <ul>
                     <li class="links">
-                        <a id='aboutMeButton'>About Me</a>
+                        <a id='aboutMeButton' href='/aboutMe'>About Me</a>
                     </li>
                     <li class="links">
-                        <a id='projectsButton'>Projects</a>
+                        <a id='projectsButton' href='/projects'>Projects</a>
                     </li>
                     <li class="links">
-                        <a id='contactMeButton'>Contact Me</a>
+                        <a id='contactMeButton' href='/contactMe'>Contact Me</a>
                     </li>
                 </ul>
             </div>
