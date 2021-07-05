@@ -1,48 +1,27 @@
+import Header from './components/header';
+import NavBar from './components/navBar';
+import MainContent from './components/mainContent';
 // import './css/App.css';
 
 function App() {
   // Set states here
 
   return (
-    <div className="app">
-      <header className="appHeader">
-        <p>
-          This is the header's placeholder text
-        </p>
-      </header>
-      
-      <nav>
-            <div id="nameTag">
-                <h1>
-                  <a id='myName' href='/'>Austin Joo</a>
-                </h1>
-            </div>
+      <div className="app">
+        <Header />
+        
+        <NavBar />
 
-            <select id="navDropdown">
-                <option selected="selected">Select</option>
 
-                <option id='aboutMeOption'>About Me</option>
-                <option id='projectsOption'>Projects</option>
-                <option id='contactMeOption'>Contact Me</option>
-            </select>
+        <div id="mainWrapper">
+          <div id="banner">
+              <h4>&copy; Takashi Murakami</h4>
+          </div>
 
-            <div id="navDirectory">
-                <ul>
-                    <li class="links">
-                        <a id='aboutMeButton' href='/aboutMe'>About Me</a>
-                    </li>
-                    <li class="links">
-                        <a id='projectsButton' href='/projects'>Projects</a>
-                    </li>
-                    <li class="links">
-                        <a id='contactMeButton' href='/contactMe'>Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        {/* Nav bar and name */}
-    </div>
-  );
+          {/* <MainContent /> */}
+        </div>
+      </div>
+  )
 }
 
 export default App;
