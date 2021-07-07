@@ -14,30 +14,33 @@ function App() {
         {/* Consider adding a welcome page that will load "Hello, my name is Austin Joo" at root enpoint with other endpoints going directly to main page with navbar and other main content */}
         <Router>
 
-          <Header />
+          {/* <Header /> */}
           
           <NavBar />
 
           <div id="mainWrapper">
             <div id="banner">
-                <h4>&copy; Takashi Murakami</h4>
+              <div id='mainComponent'>
+
+                {/* <Route exact path="/aboutMe">
+                  <Welcome />
+                </Route> */}
+
+                <Route exact path="/aboutMe">
+                  <AboutMe />
+                </Route>
+
+                <Route exact path="/projects">
+                  <Projects />
+                </Route>
+
+                <Route exact path="/contactMe">
+                  <Contacts />
+                </Route>
+
+              </div>
+              <h4>&copy; Takashi Murakami</h4>
             </div>
-
-            <Route exact path="/aboutMe">
-              <Welcome />
-            </Route>
-
-            <Route exact path="/aboutMe">
-              <AboutMe />
-            </Route>
-
-            <Route exact path="/projects">
-              <Projects />
-            </Route>
-
-            <Route exact path="/contactMe">
-              <Contacts />
-            </Route>
           </div>
 
         </Router>

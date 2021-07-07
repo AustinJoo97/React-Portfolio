@@ -9,7 +9,7 @@ html{
 :root {
     --defcol1: #66FCF1;
     --defcol2: #1F2833;
-    --linkcol: rgb(19, 255, 19);
+    --linkcol: #F172A1;
 }
 
 /* CSS affecting nav bar and banner of webpage */
@@ -26,13 +26,18 @@ nav{
 }
 
 #banner{
-    height: 350px;
+    /* height: 350px; */
+    height: 100%;
     width: 100%;
     background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
-    text-align: right;
-    padding-top: 280px;
-    padding-left: 70%;
+    padding-top: 100px;
 } 
+
+#banner h4{
+    padding-top: 72px;
+    color: rgb(108, 140, 245);
+    padding-left: 90%;
+}
 
 #nameTag{
     font-size: 70px;
@@ -51,53 +56,37 @@ nav{
 
 #navDirectory{
     float: right;
-    width: 27%;
     padding-top: 5px;
+    padding-right: 10px;
+    display: inline;
 }
 
 #navDirectory li{
-    display: inline-block;
+    display: inline;
     padding-top: 7%;
     padding-left: 20px;
 }
 
 #navDirectory a{
     font-size: 20px;
-}
-
-.links{
+    display: inline;
     color: var(--defcol1);
 }
 
-.links a:hover,
-.links a:focus{
+.links:hover,
+.links:focus{
     color: var(--linkcol);
-}
-
-#banner h4{
-    padding: 45px 0 3px 0;
-    color: rgb(108, 140, 245)
 }
 
 /* CSS affecting all/multiple content sections of the body */
 #mainComponent{
+    width: 85%;
+    height: 425px;
+    background-color: white;
+    margin-left: 8%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.titleCard{
-    border-right: solid 3px var(--defcol2);
-    width: 30%;
-    height: 100%;
-    text-align: center;
-    float: left;
-}
-
-.titleCard p{
-    font-size: 50px;
-    font-weight: 900;
-    color: var(--defcol1);
 }
 
 .personalInfo, 
@@ -109,21 +98,16 @@ nav{
 #aboutMe,
 #projectsDisplay,
 #contacts{
-    width: 70%;
-    float: right;
+    font-size: large;
     align-self: center;
 }
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
-.personalInfo{
-    height: 370px;
-}
-
 #aboutMe{
-    max-height: 370px;
     overflow: scroll;
     line-height: 1.5;
     padding-left: 25px;
+    padding: 18px;
 }
 
 #aboutMe strong{
@@ -146,8 +130,8 @@ nav{
 
 /* CSS pertaining specifically to "my projects" */
 .myProjects{
+    /* overflow: scroll; */
     text-align: center;
-    height: 600px;
 }
 
 .myProjects a{
@@ -156,13 +140,13 @@ nav{
 
 .projects{
     margin: 3%;
-    height: 150px;
-    width: 40%;
+    height: 200px;
+    width: 35%;
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
     border: 1px dashed var(--defcol2);
-    overflow: auto;
+    overflow: scroll;
 }
 
 .projects:hover{
@@ -348,9 +332,9 @@ nav{
         padding-top: 2%;
     }
 
-    #banner h4{
+    /* #banner h4{
         padding: 35px 0 3px 0;
-    }
+    } */
 
     #projectsDisplay{
         padding-right: 25px;
