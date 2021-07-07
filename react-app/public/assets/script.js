@@ -3,17 +3,17 @@ let projectsButton = document.getElementById('projectsButton');
 let contactMeButton = document.getElementById('contactMeButton');
 let navDropdown = document.getElementById('navDropdown');
 
-aboutMeButton.addEventListener('click', function(){
-    document.getElementById('aboutMeTitle').scrollIntoView();
-});
+// aboutMeButton.addEventListener('click', function(){
+//     document.getElementById('aboutMeTitle').scrollIntoView();
+// });
 
-projectsButton.addEventListener('click', function(){
-    document.getElementById('projectsDisplayTitle').scrollIntoView();
-});
+// projectsButton.addEventListener('click', function(){
+//     document.getElementById('projectsDisplayTitle').scrollIntoView();
+// });
 
-contactMeButton.addEventListener('click', function(){
-    document.getElementById('contactsTitle').scrollIntoView();
-});
+// contactMeButton.addEventListener('click', function(){
+//     document.getElementById('contactsTitle').scrollIntoView();
+// });
 
 navDropdown.addEventListener('change', function(event){
     if(event.target.value === 'About Me'){
