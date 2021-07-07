@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Dropdown, DropdownMenu, DropdownItem } from 'reactstrap';
 
-export default function NavBar(props){
+export default function NavBarHeader(props){
 
     return (
         <nav>
@@ -33,7 +33,7 @@ export default function NavBar(props){
                 <Link className="links" id='projectsButton' to='/projects'>
                     <h4>Projects</h4>
                 </Link>
-                
+
                 <Link className="links" id='contactMeButton' to="/contactMe">
                     <h4>Contact Me</h4>
                 </Link>

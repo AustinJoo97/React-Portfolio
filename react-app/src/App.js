@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
-import Header from './components/header';
-import NavBar from './components/navBar';
+import NavBarHeader from './components/navBar';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
 import AboutMe from './components/aboutMe';
@@ -14,7 +13,7 @@ function App() {
 
           {/* <Header /> */}
           
-          <NavBar />
+          <NavBarHeader />
 
           <div id="mainWrapper">
             <div id="banner">
