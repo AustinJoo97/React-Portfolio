@@ -25,6 +25,15 @@ nav{
     position: relative;
 }
 
+#banner{
+    height: 350px;
+    width: 100%;
+    background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
+    text-align: right;
+    padding-top: 280px;
+    padding-left: 70%;
+} 
+
 #nameTag{
     font-size: 70px;
     width: 70%;
@@ -64,15 +73,6 @@ nav{
 .links a:focus{
     color: var(--linkcol);
 }
-
-#banner{
-    height: 350px;
-    width: 100%;
-    background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
-    text-align: right;
-    padding-top: 280px;
-    padding-left: 70%;
-} 
 
 #banner h4{
     padding: 45px 0 3px 0;

@@ -4,7 +4,7 @@ export default function NavBar(props){
         <nav>
               <div id="nameTag">
                   <h1>
-                    <a id='myName' href="/#" onClick={props.changePath}>Austin Joo</a>
+                    <a id='myName' href="/aboutMe" onClick={props.changePath}>Austin Joo</a>
                   </h1>
               </div>
 
@@ -19,13 +19,13 @@ export default function NavBar(props){
               <div id="navDirectory">
                   <ul>
                       <li className="links">
-                          <a id='aboutMeButton' href="/#" onClick={props.changePath}>About Me</a>
+                          <a id='aboutMeButton' href="/aboutMe" onClick={props.changePath}>About Me</a>
                       </li>
                       <li className="links">
-                          <a id='projectsButton' href="/#" onClick={props.changePath}>Projects</a>
+                          <a id='projectsButton' href="/projects" onClick={props.changePath}>Projects</a>
                       </li>
                       <li className="links">
-                          <a id='contactMeButton' href="/#" onClick={props.changePath}>Contact Me</a>
+                          <a id='contactMeButton' href="/contactMe" onClick={props.changePath}>Contact Me</a>
                       </li>
                   </ul>
               </div>
