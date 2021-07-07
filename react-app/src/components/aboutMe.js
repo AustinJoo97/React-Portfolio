@@ -8,7 +8,7 @@ export default function AboutMe(){
                 <ol>
                     <li class="skillList">Dynamic frontend user interface development using <strong>HTML5, CSS3, React.js, Handlebars.js, Bootstrap, and Foundation</strong></li>
                     <li class="skillList">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, NodeJS, AJAX, ExpressJS, APIs, and queries compiled in JS from Mongo and SQL</strong></li>
-                    <li class="skillList">Database creation design, creation, population, management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong></li>
+                    <li class="skillList">Database design, creation, population, and management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong></li>
                     <li class="skillList">Application deployment and monitoring through <strong>Heroku</strong> and <strong>AWS</strong></li>
                 </ol>
             </div>
