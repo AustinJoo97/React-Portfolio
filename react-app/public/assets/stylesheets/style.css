@@ -293,7 +293,6 @@ nav{
 
     #projectsDisplay{
         padding-left: 7%;
-        /* text-align: center; */
     }
 
     #contacts{
@@ -316,10 +315,6 @@ nav{
         float: left;
         padding-top: 2%;
     }
-
-    /* #banner h4{
-        padding: 35px 0 3px 0;
-    } */
 
     #projectsDisplay{
         padding-right: 25px;
