@@ -5,6 +5,7 @@ import NavBarHeader from './components/navBar';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
 import AboutMe from './components/aboutMe';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
               <h4 id='sig'>&copy; Takashi Murakami</h4>
             </div>
           </div>
+
+          <Footer />
 
         </Router>
       </div>
