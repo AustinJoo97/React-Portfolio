@@ -4,18 +4,20 @@ import Contacts from './contacts';
 import AboutMe from './aboutMe';
 
 export default function MainContent({ pathChosen }) {
-    // console.log(`THIS PATH WAS CHOSEN: ${pathChosen}`)
-    // const [path, setPath] = useState(pathChosen);
+    const choosePath = (pathChosen) => {
+        switch(pathChosen){
+            case 'projectsButton': 
+                return (<Projects />)
+            case 'contactMeButton': 
+                return (<Contacts />)
+            default:
+                return (<AboutMe />)
+        }
+    }
     
-    // switch(pathChosen){
-    //     case 'projectsButton': 
-    //         return (<Projects />)
-    //     case 'contactMeButton': 
-    //         return (<Contacts />)
-    //     default:
-    //         return (<AboutMe />)
-    // }
     return(
-        <div></div>
-    );
+        <div>
+            {choosePath(pathChosen)}
+        </div>
+    )
 }
