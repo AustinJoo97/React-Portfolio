@@ -229,22 +229,13 @@ nav{
 }
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
-.contactMe{
-    height: 100%;
-    /* width: 100%; */
-}
-
 #contacts{
+    height: 95%;
+    width: 100%;
     text-align: center;
     line-height: 1.5;
-    padding-top: 120px;
-    width: 45%;
-    margin-left: 150px;
-    overflow: scroll;
-}
-
-#contacts strong{
-    color: var(--defcol2)
+    padding-top: 170px;
+    padding-right: 25px;
 }
 
 #contacts li{
@@ -307,8 +298,8 @@ nav{
 
     #contacts{
         height: 150px;
-        padding-top: 1%;
-        padding-left: 0;
+        padding-top: 30%;
+        padding-left: 5%;
     }
 
     #contacts li{
