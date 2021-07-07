@@ -10,12 +10,6 @@ import Contacts from './components/contacts';
 import AboutMe from './components/aboutMe';
 
 function App() {
-  const [contentPath, setContentPath] = useState('/');
-
-  const changePath = (pathChosen) => {
-      setContentPath(pathChosen.target.id);
-  }
-
   return (
       <div className="app">
         <Router>
