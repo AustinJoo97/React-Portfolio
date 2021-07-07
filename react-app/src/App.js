@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { useState } from "react";
 
 
 import Header from './components/header';
@@ -12,13 +11,12 @@ import AboutMe from './components/aboutMe';
 function App() {
   return (
       <div className="app">
+        {/* Consider adding a welcome page that will load "Hello, my name is Austin Joo" at root enpoint with other endpoints going directly to main page with navbar and other main content */}
         <Router>
 
           <Header />
           
-          <NavBar 
-          changePath={changePath}
-          />
+          <NavBar />
 
           <div id="mainWrapper">
             <div id="banner">

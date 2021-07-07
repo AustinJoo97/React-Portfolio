@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function NavBar(props){
 
     return (
@@ -17,17 +19,15 @@ export default function NavBar(props){
               </select>
 
               <div id="navDirectory">
-                  <ul>
-                      <li className="links">
-                          <a id='aboutMeButton' href="/aboutMe" onClick='return false'>About Me</a>
-                      </li>
-                      <li className="links">
-                          <a id='projectsButton' href="/projects" onClick='return false'>Projects</a>
-                      </li>
-                      <li className="links">
-                          <a id='contactMeButton' href="/contactMe" onClick='return false'>Contact Me</a>
-                      </li>
-                  </ul>
+                    <Link className="links" id='aboutMeButton' to='/aboutMe'>
+                        <h4>About Me</h4>
+                    </Link>
+                    <Link className="links" id='projectsButton' to='/projects'>
+                        <h4>Projects</h4>
+                    </Link>
+                    <Link className="links" id='contactMeButton' to="/contactMe">
+                        <h4>Contact Me</h4>
+                    </Link>
               </div>
           </nav>
     )
