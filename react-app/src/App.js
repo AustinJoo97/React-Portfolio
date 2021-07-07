@@ -39,7 +39,7 @@ function App() {
                 </Route>
 
               </div>
-              <h4>&copy; Takashi Murakami</h4>
+              <h4 id='sig'>&copy; Takashi Murakami</h4>
             </div>
           </div>
 
