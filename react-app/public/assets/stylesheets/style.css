@@ -188,43 +188,49 @@ nav{
 }
 
 #project2{
+    background-size: 50% 100%;
+    background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
+}
+
+#project3{
     background-image: url(../demos/waitForWeightLoss.png);
     background-size: 100% 105%;
 }
 
-#ghLink2{
+#ghLink3{
     color:var(--defcol2);
 }
 
-#project3{
+#project4{
     background-image: url(../demos/weatherReport.png);
     background-size: 100% 120%;
 }
 
-#project4{
+#project5{
     background-size: 100% 100%;
     background-image: url(../demos/noteTaker.png);
 }
 
-#project5{
+#project6{
     background-image: url(../demos/workDayPlanner.png);
     background-size: 100% 100%;
 }
 
-#ghLink5{
+#ghLink6{
     color: black;
 }
 
 #project6{
-    background-size: 50% 100%;
-    background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
+    background-image: url(../demos/workDayPlanner.png);
+    background-size: 100% 100%;
 }
 
 #ghLink1:hover,
 #ghLink2:hover,
 #ghLink3:hover,
 #ghLink4:hover,
-#ghLink5:hover{
+#ghLink5:hover,
+#ghLink6:hover{
     color: var(--linkcol)
 }
 
