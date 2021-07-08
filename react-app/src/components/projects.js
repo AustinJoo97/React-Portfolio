@@ -15,7 +15,7 @@ export default function Projects() {
                 <div class="projects" id="project2">
                     <section class="project_info">
                         <h4>Tech Blog</h4>
-                        <p>JS, NodeJS, ExpressJS, HandlebarsJS, MySQL</p>
+                        <p>JS/NodeJS/ExpressJS/HandlebarsJS/MySQL</p>
                     </section>
                     <a class='ghLink' id='ghLink2' href='https://github.com/AustinJoo97/Tech-Blog' target="_blank" rel="noreferrer">GitHub</a>
                 </div>
@@ -25,7 +25,7 @@ export default function Projects() {
                 <div class="projects" id="project3">
                     <section class="project_info">
                         <h4>Wait for Weight Loss</h4>
-                        <p>Handlebars.js, Express, Sequelize, MySQL</p>
+                        <p>HandlebarsJS/Express/Sequelize/MySQL</p>
                     </section>
                     <a class='ghLink' id='ghLink3' href='https://github.com/AustinJoo97/WaitForWeightLoss' target="_blank" rel="noreferrer">GitHub</a>
                 </div>

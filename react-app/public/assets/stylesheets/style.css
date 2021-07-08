@@ -38,7 +38,7 @@ nav{
 }
 
 #sig{
-    padding-top: 72px;
+    padding-top: 30px;
     padding-left: 90%;
 }
 
@@ -107,7 +107,7 @@ nav{
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
 #aboutMe{
-    overflow: scroll;
+    overflow: auto;
     line-height: 1.5;
     padding-left: 25px;
     padding: 18px;
@@ -133,7 +133,7 @@ nav{
 
 /* CSS pertaining specifically to "my projects" */
 .myProjects{
-    overflow: scroll;
+    overflow: auto;
     height: 95%;
     text-align: center;
 }
@@ -165,7 +165,7 @@ nav{
     /* padding-right: 100px; */
     display: inline-block;
     background-color: var(--defcol1);
-    overflow: scroll;
+    overflow: auto;
 }
 
 .project_info h4{
@@ -324,7 +324,7 @@ nav{
 
     #projectsDisplay{
         padding-right: 25px;
-        overflow: scroll;
+        overflow: auto;
         text-align: center;
     }
 

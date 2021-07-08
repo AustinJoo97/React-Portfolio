@@ -33,11 +33,11 @@ function App() {
                 </Route>
 
               </div>
+              <Footer />
               <h4 id='sig'>&copy; Takashi Murakami</h4>
             </div>
           </div>
 
-          <Footer />
 
         </Router>
       </div>
