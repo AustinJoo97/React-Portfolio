@@ -26,7 +26,6 @@ nav{
 }
 
 #banner{
-    /* height: 350px; */
     height: 100%;
     width: 100%;
     background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
@@ -58,27 +57,30 @@ nav{
 }
 
 #navDirectory{
-    float: right;
+    display: inline;
+    float: left;
+    margin-left: 200px;
     padding-top: 5px;
     padding-right: 10px;
-    display: inline;
 }
 
 #navDirectory li{
-    display: inline;
     padding-top: 7%;
     padding-left: 20px;
 }
 
 #navDirectory a{
     font-size: 20px;
-    display: inline;
     color: var(--defcol1);
 }
 
 #navDirectory a:hover,
 #navDirectory a:focus{
     color: var(--linkcol);
+}
+
+.navLinks{
+    display: inline
 }
 
 /* CSS affecting all/multiple content sections of the body */
@@ -90,6 +92,7 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .personalInfo, 
@@ -107,7 +110,6 @@ nav{
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
 #aboutMe{
-    overflow: auto;
     line-height: 1.5;
     padding-left: 25px;
     padding: 18px;
@@ -156,7 +158,6 @@ nav{
     box-shadow: 0px 5px 25px var(--linkcol);
     transform: scale(1.1);
 }
-
 
 .project_info{
     height: 75px;
@@ -259,6 +260,22 @@ nav{
     color: var(--linkcol);
 }
 
+#downloadButton{
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: x-large;
+    height: 75px;
+    width: 150px;
+    margin-left: 43%;
+    margin-top: 15%;
+}
+
+#downloadButton:hover,
+#downloadButton:focus{
+    background-color: #66FCF1;
+    color: #1F2833;
+}
+
 /* Media queries begin here to adjust the viewport upon a shift in dimensions */
 /* @1220px on the x-axis, change nav list items display from inline-block to something else */
 @media screen and (max-width: 1220px){
@@ -303,7 +320,7 @@ nav{
 
     #contacts{
         height: 150px;
-        padding-top: 30%;
+        padding-top: 22%;
         padding-left: 5%;
     }
 
@@ -311,6 +328,11 @@ nav{
         display: block;
         text-align: center;
         padding-left: 0;
+    }
+
+    #downloadButton{
+        margin-left: 40%;
+        margin-top: 20%;
     }
 }
 
@@ -331,11 +353,21 @@ nav{
     .projects{
         width: 70%;
     }
+
+    #downloadButton{
+        margin-left: 37%;
+        margin-top: 30%;
+    }
 }
 
 @media screen and (max-width: 350px){
     #myName{
         margin-top: 4%;
         font-size: 30px;
+    }
+
+    #downloadButton{
+        /* margin-left: 10%; */
+        margin-top: 30%;
     }
 }

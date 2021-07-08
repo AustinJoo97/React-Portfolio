@@ -26,16 +26,20 @@ export default function NavBarHeader(props){
             </Dropdown> */}
 
             <div id="navDirectory">
-                <Link className="links" id='aboutMeButton' to='/aboutMe'>
+                <Link className="links navLinks" id='aboutMeButton' to='/aboutMe'>
                     <h4>About Me</h4>
                 </Link>
 
-                <Link className="links" id='projectsButton' to='/projects'>
+                <Link className="links navLinks" id='projectsButton' to='/projects'>
                     <h4>Projects</h4>
                 </Link>
 
-                <Link className="links" id='contactMeButton' to="/contactMe">
+                <Link className="links navLinks" id='contactMeButton' to="/contactMe">
                     <h4>Contact Me</h4>
+                </Link>
+
+                <Link className="links navLinks" id='resumeButton' to="/resume">
+                    <h4>Resume</h4>
                 </Link>
             </div>
           </nav>

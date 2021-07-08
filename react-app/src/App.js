@@ -5,14 +5,13 @@ import NavBarHeader from './components/navBar';
 import Projects from './components/projects';
 import Contacts from './components/contacts';
 import AboutMe from './components/aboutMe';
+import Resume from './components/resume';
 import Footer from './components/footer';
 
 function App() {
   return (
-      <div className="app">
+      <div className="app" style={{width: '100%', height: '100%'}}>
         <Router>
-
-          {/* <Header /> */}
           
           <NavBarHeader />
 
@@ -30,6 +29,10 @@ function App() {
 
                 <Route exact path="/contactMe">
                   <Contacts />
+                </Route>
+
+                <Route exact path="/resume">
+                  <Resume />
                 </Route>
 
               </div>

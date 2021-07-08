@@ -1,9 +1,9 @@
 export default function Footer(){
     const divStyle = {
         backgroundColor: "#1F2833",
-        width: "1087px",
+        width: '85%',
         textAlign: "center",
-        marginLeft: "103px"
+        marginLeft: "8%"
     }
 
     const gitHubStyle = {
@@ -18,7 +18,7 @@ export default function Footer(){
     }
 
     return(
-        <div style={divStyle}>
+        <div id='footer' style={divStyle}>
             <a href="https://github.com/AustinJoo97" target="_blank" rel="noreferrer">
                 <i className="fa fa-github" id='githubAnchor' style={gitHubStyle}></i>
             </a>
