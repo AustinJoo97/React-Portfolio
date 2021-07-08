@@ -221,27 +221,35 @@ nav{
 #contacts{
     height: 95%;
     width: 100%;
-    text-align: center;
+    display: inline;
     line-height: 1.5;
-    padding-top: 170px;
-    padding-right: 25px;
+    padding-top: 30px;
+    padding-left: 3%;
 }
 
-#contacts li{
+#contactForm {
+    width: 50%;
+}
+
+#contacts label{
     display: inline-block;
-    padding-left: 30px;
 }
 
-#contacts li::before{
-    content:"\261E\ ";
-    color: purple;
+#contacts input{
+    width: 70%;
+    margin-bottom: 2%;
 }
 
-#contacts a:hover,
-#contacts a:focus{
-    color: var(--linkcol);
+#messageInput{
+    height: 150px;
 }
 
+#contacts h1{
+    float: right;
+    margin: -20% 10% 0 50%;
+}
+
+/* CSS pertaining specifically to the "resume" part of the webpage */
 #downloadButton{
     background-color: #1F2833;
     color: #66FCF1;
