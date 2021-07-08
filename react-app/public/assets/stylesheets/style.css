@@ -57,30 +57,19 @@ nav{
 }
 
 #navDirectory{
-    display: inline;
-    float: left;
-    margin-left: 200px;
-    padding-top: 5px;
-    padding-right: 10px;
-}
-
-#navDirectory li{
-    padding-top: 7%;
-    padding-left: 20px;
+    display: contents;
 }
 
 #navDirectory a{
     font-size: 20px;
+    padding-top: 2%;
+    padding-right: 10px;
     color: var(--defcol1);
 }
 
 #navDirectory a:hover,
 #navDirectory a:focus{
     color: var(--linkcol);
-}
-
-.navLinks{
-    display: inline
 }
 
 /* CSS affecting all/multiple content sections of the body */
@@ -95,17 +84,10 @@ nav{
     overflow: auto;
 }
 
-.personalInfo, 
-.myProjects,
-.contactMe { 
-    margin-top: 20px;
-}
-
 #aboutMe,
 #projectsDisplay,
 #contacts{
     font-size: large;
-    align-self: center;
 }
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
@@ -156,7 +138,7 @@ nav{
 
 .projects:hover{
     box-shadow: 0px 5px 25px var(--linkcol);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .project_info{
