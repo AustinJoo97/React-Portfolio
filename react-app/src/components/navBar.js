@@ -2,6 +2,7 @@ import { withRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 function NavBarHeader({ history }){
+
     return (
         <nav>
             <div id="nameTag">

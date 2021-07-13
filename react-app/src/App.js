@@ -19,10 +19,6 @@ function App() {
             <div id="banner">
               <div id='mainComponent'>
 
-                <Route exact path="/aboutMe">
-                  <AboutMe />
-                </Route>
-
                 <Route exact path="/projects">
                   <Projects />
                 </Route>
@@ -35,6 +31,10 @@ function App() {
                   <Resume />
                 </Route>
 
+                <Route exact path="*">
+                  <AboutMe />
+                </Route>
+                
               </div>
               <Footer />
               <h4 id='sig'>&copy; Takashi Murakami</h4>
