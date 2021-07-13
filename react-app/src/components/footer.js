@@ -23,7 +23,7 @@ export default function Footer(){
                 <i className="fa fa-github" id='githubAnchor' style={gitHubStyle}></i>
             </a>
             <a href="https://www.linkedin.com/in/austin-joo/" target="_blank" rel="noreferrer">
-                <i class="fa fa-linkedin-square" id='linkedInAnchor' style={linkedInStyle}></i>
+                <i className="fa fa-linkedin-square" id='linkedInAnchor' style={linkedInStyle}></i>
             </a>
         </div>
     )

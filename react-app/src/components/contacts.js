@@ -41,10 +41,10 @@ export default function Contacts(){
         setName('');
         setEmail('');
         setMessage('');
-      };
+    };
 
     return(
-        <div class="contactMe" id="contacts">
+        <div className="contactMe" id="contacts">
             <form id='contactForm'>
                 <label for='name' id='nameLabel'>Name: </label>
                 <br></br>
@@ -85,7 +85,7 @@ export default function Contacts(){
             </form>
 
             <h1>Please enter your contact information in the form on the left as well as your message and I will get back to you as soon as possible! Thank you!</h1>
-            
+
             {errorMessage && (
                 <div>
                 <p className="error-text">{errorMessage}</p>

@@ -1,8 +1,7 @@
+import { withRouter } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import { Dropdown, DropdownMenu, DropdownItem } from 'reactstrap';
 
-export default function NavBarHeader(props){
-
+function NavBarHeader({ history }){
     return (
         <nav>
             <div id="nameTag">
@@ -11,19 +10,14 @@ export default function NavBarHeader(props){
                 </Link>
             </div>
 
-            <select id="navDropdown">
-                <option defaultValue="selected">Select</option>
-
-                <option id='aboutMeOption'>About Me</option>
-                <option id='projectsOption'>Projects</option>
-                <option id='contactMeOption'>Contact Me</option>
+            <select id="navDropdown" onChange={(e) => {
+                history.push(`${e.target.value}`);
+            }}>
+                <option id='aboutMeOption' value='/aboutMe'>About Me</option>
+                <option id='projectsOption' value='/projects'>Projects</option>
+                <option id='contactMeOption' value='/contactMe'>Contact Me</option>
+                <option id='resumeOption' value='/resume'>Resume</option>
             </select>
-
-            {/* <Dropdown>
-              <DropdownMenu>
-                <DropdownItem href="/aboutMe">About Me</DropdownItem>
-              </DropdownMenu>
-            </Dropdown> */}
 
             <div id="navDirectory">
                 <Link className="links navLinks" id='aboutMeButton' to='/aboutMe'>
@@ -45,3 +39,5 @@ export default function NavBarHeader(props){
           </nav>
     )
 }
+
+export default withRouter(NavBarHeader)
