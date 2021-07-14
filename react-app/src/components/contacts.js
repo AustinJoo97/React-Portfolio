@@ -32,16 +32,16 @@ export default function Contacts(){
 
         if(name.length === 0){
           setErrorMessage('Please enter your name!')
-        }
-    
-        if (!emailValidator(email)) {
+
+          return;
+        } else if(!emailValidator(email)) {
           setErrorMessage('Email is invalid!');
 
           return;
-        }
+        } else if(message.length === 0){
+          setErrorMessage('You did not leave a message!')
 
-        if(message.length === 0){
-          setErrorMessage('You have not entered a message!')
+          return;
         }
 
         alert(`Thank you for the message ${name}! You will receive a response shortly!`);
@@ -54,7 +54,7 @@ export default function Contacts(){
     return(
         <div className="contactMe" id="contacts">
             <form id='contactForm'>
-                <label for='name' id='nameLabel'>Name: </label>
+                <label id='nameLabel'>Name: </label>
                 <br></br>
                 <input 
                 value={name}
@@ -65,7 +65,7 @@ export default function Contacts(){
 
                 <br></br>
 
-                <label for='email' id='emailInput' onChange={emailValidator}>Email: </label>
+                <label id='emailInput' onChange={emailValidator}>Email: </label>
                 <br></br>
                 <input 
                 value={email}
@@ -76,7 +76,7 @@ export default function Contacts(){
 
                 <br></br>
 
-                <label for='message' id='messageLabel'>Message: </label>
+                <label id='messageLabel'>Message: </label>
                 <br></br>
                 <input 
                 value={message}

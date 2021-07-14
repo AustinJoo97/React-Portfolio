@@ -14,7 +14,7 @@ function NavBarHeader({ history }){
             <select id="navDropdown" onChange={(e) => {
                 history.push(`${e.target.value}`);
             }}>
-                <option id='aboutMeOption' value='/aboutMe'>About Me</option>
+                <option id='aboutMeOption' value='/'>About Me</option>
                 <option id='projectsOption' value='/projects'>Projects</option>
                 <option id='contactMeOption' value='/contactMe'>Contact Me</option>
                 <option id='resumeOption' value='/resume'>Resume</option>

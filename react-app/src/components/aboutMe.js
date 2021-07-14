@@ -7,7 +7,7 @@ export default function AboutMe(){
             <div id="skillset">
                 <ol>
                     <li className="skillList">Dynamic, stateful and stateless frontend user interface development using <strong>React, Handlebars.js, Bootstrap, Foundation, HTML5, and CSS3</strong></li>
-                    <li className="skillList">Caching and authentication <strong>Bcrypt, Cookies, Session stores, and JSON web tokens</strong></li>
+                    <li className="skillList">Caching and authentication using <strong>Bcrypt, Cookies, Session stores, and JSON web tokens</strong></li>
                     <li className="skillList">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, ExpressJS, NodeJS, NPM, AJAX, and custom APIs</strong></li>
                     <li className="skillList">Database design, creation, population, and management through both <strong>Mongo</strong> and <strong>mySQL</strong> via queries compiled in JS using <strong>Mongoose, Sequelize, and GraphL</strong></li>
                     <li className="skillList">Application deployment and monitoring through <strong>Heroku, GitHub Pages,</strong> and <strong>AWS</strong></li>
