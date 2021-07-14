@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --defcol1: #66FCF1;
+    --defcol2: #1F2833;
+    --linkcol: #F172A1;
+}
+
+/* CSS affecting nav bar and banner of webpage */
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: var(--defcol2);
+}
+
+#mainWrapper{
+    width: 100%;
+}
+
+#banner{
+    /* height: 1000px; */
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
+    padding-top: 100px;
+} 
+
+#banner h4{
+    color: rgb(108, 140, 245);
+}
+
+#sig{
+    padding-top: 30px;
+    padding-left: 95%;
+}
+
+#nameTag{
+    font-size: 70px;
+    width: 70%;
+    padding-left: 10px;
+}
+
+#myName{
+    color: var(--defcol1);
+}
+
+#navDropdown{
+    display: none;
+    color: white;
+}
+
+#navDirectory{
+    display: contents;
+}
+
+#navDirectory a{
+    font-size: 20px;
+    padding-top: 2%;
+    padding-right: 10px;
+    color: var(--defcol1);
+}
+
+#navDirectory a:hover,
+#navDirectory a:focus{
+    color: var(--linkcol);
+}
+
+/* CSS affecting all/multiple content sections of the body */
+#mainComponent{
+    width: 85%;
+    height: 425px;
+    background-color: white;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+#aboutMe,
+#projectsDisplay,
+#contacts{
+    font-size: large;
+}
+
+/* CSS pertaining specifically to the "about me" section of the webpage */
+#aboutMe{
+    line-height: 1.5;
+    padding-left: 25px;
+    padding: 18px;
+}
+
+#aboutMe strong{
+    color: rgb(43, 116, 226);
+}
+
+#skillset{
+    margin: 15px 0 15px 10px;
+}
+
+.skillList{
+    line-height: 2;
+    margin: 5px;
+}
+
+.skillList::before{
+    content:"\261E\ ";
+    color: purple;
+}
+
+/* CSS pertaining specifically to "my projects" */
+.myProjects{
+    overflow: auto;
+    height: 95%;
+    text-align: center;
+}
+
+.myProjects a{
+    text-decoration: none;
+}
+
+.projects{
+    margin: 3%;
+    height: 40%;
+    width: 35%;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects:hover{
+    box-shadow: 0px 5px 25px var(--linkcol);
+    transform: scale(1.1);
+}
+
+.project_info{
+    height: 75px;
+    width: 100%;
+    margin-top: 123px;
+    display: inline-block;
+    color: var(--defcol1);
+    background-color: var(--defcol2);
+    overflow: auto;
+}
+
+.project_info h4{
+    padding-top: -72px;
+    padding-left: -90%;
+}
+
+.ghLink{
+    font-weight: 800;
+}
+
+#project1{
+    background-image: url(../demos/movieNightDoneRight.png);
+    text-align: center;
+    background-size: 100% 100%;
+}
+
+#ghLink1{
+    color: orange;
+}
+
+#project2{
+    background-size: 100% 100%;
+    background-image: url(../demos/techBlog.png);
+}
+
+#project3{
+    background-image: url(../demos/waitForWeightLoss.png);
+    background-size: 100% 105%;
+}
+
+#ghLink3{
+    color:var(--defcol2);
+}
+
+#project4{
+    background-image: url(../demos/weatherReport.png);
+    background-size: 100% 120%;
+}
+
+#project5{
+    background-size: 100% 100%;
+    background-image: url(../demos/noteTaker.png);
+}
+
+#project6{
+    background-image: url(../demos/workDayPlanner.png);
+    background-size: 100% 100%;
+}
+
+#ghLink6{
+    color: black;
+}
+
+#project6{
+    background-image: url(../demos/workDayPlanner.png);
+    background-size: 100% 100%;
+}
+
+#ghLink1:hover,
+#ghLink2:hover,
+#ghLink3:hover,
+#ghLink4:hover,
+#ghLink5:hover,
+#ghLink6:hover{
+    color: var(--linkcol)
+}
+
+/* CSS pertaining specifically to the "contact me" part of the webpage */
+#contacts{
+    height: 95%;
+    width: 100%;
+    display: inline;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 3%;
+}
+
+#contactForm {
+    width: 50%;
+}
+
+#contacts label{
+    display: inline-block;
+}
+
+#contacts input{
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+#messageInput{
+    height: 150px;
+}
+
+#contacts h1{
+    float: right;
+    margin: -20% 10% 0 50%;
+}
+
+/* CSS pertaining specifically to the "resume" part of the webpage */
+#downloadButton{
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: x-large;
+    height: 75px;
+    width: 150px;
+    margin-left: 43%;
+    margin-top: 15%;
+    border-radius: 15%;
+}
+
+#downloadButton:hover,
+#downloadButton:focus{
+    background-color: #66FCF1;
+    color: #1F2833;
+}
+
+/* Media queries begin here to adjust the viewport upon a shift in dimensions */
+/* @1220px on the x-axis, change nav list items display from inline-block to something else */
+@media screen and (max-width: 1220px){
+    #sig{
+        padding-top: 30px;
+        padding-left: 83%;
+    }
+
+    #navDirectory{
+        display: none;
+    }
+
+    #navDropdown{
+        display: inline-block;
+        background-color: var(--defcol1);
+    }
+
+    .projects{
+        margin-top: 10%;
+    }
+
+    #downloadButton{
+        margin-left: 41%;
+        margin-top: 20%;
+    }
+}
+/* USE 770px ON THE X-AXIS TO DETERMINE THE MAXIMUM A VIEWPORT CAN SHRINK BEFORE CSS IS ALTERED */
+@media screen and (max-width: 867px){
+    nav{
+        background-color: var(--defcol1);
+    }
+
+    #myName{
+        color: var(--defcol2);
+    }
+
+    #navDropdown{
+        background-color: var(--defcol2);
+    }
+
+    #mainComponent{
+        display: block;
+        flex-direction: column;
+    }
+
+    #aboutMe,
+    #projectsDisplay,
+    #contacts{
+        width: 100%;
+        align-content: center;
+    }
+
+    #projectsDisplay{
+        margin-left: 1.5%;
+    }
+
+    #contacts{
+        height: 150px;
+        display: inline;
+        padding-top: 22%;
+        padding-left: 5%;
+    }
+
+    #contacts form{
+        padding-left: 3%;
+    }
+
+    #contacts h1{
+        margin-top: -45%;
+    }
+
+    #downloadButton{
+        margin-left: 38%;
+        margin-top: 23%;
+    }
+}
+
+/* @532px on the x-axis, change h1 dimensions to prevent overflow and change contacts list to block from inline-block */
+@media screen and (max-width: 655px){
+    #myName{
+        font-size: 50px;
+        float: left;
+        padding-top: 2%;
+    }
+
+    #projectsDisplay{
+        padding-right: 25px;
+        overflow: auto;
+        text-align: center;
+    }
+
+    .projects{
+        width: 70%;
+    }
+
+    #downloadButton{
+        margin-left: 29%;
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width: 545px){
+    #downloadButton{
+        margin-left: 35%;
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #projectsDisplay{
+        margin-left: 7%;
+    }
+
+    #contacts h1{
+        margin-top: -80%;
+    }
+
+    #downloadButton{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #myName{
+        margin-top: 4%;
+        font-size: 30px;
+    }
+
+    #downloadButton{
+        align-self: center;
+        margin-left: 27%;
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width: 325px){
+    #contacts h1{
+        margin-top: -105%;
+    }
+
+    #downloadButton{
+        margin-left: 23%;
+        margin-top: 50%;
+    }
+}
