@@ -8,7 +8,7 @@ export default function Projects() {
                             <p>Javascript/TMDB_API/Foundation/HTML/CSS</p>
                         </section>
                 </a>
-                <a className='ghLink' id="ghLink1" href='https://github.com/AustinJoo97/MovieNightDoneRight' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id="ghLink1" href='https://github.com/AustinJoo97/MovieNightDoneRight' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
 
             <div className="projects" id="project2">
@@ -18,7 +18,7 @@ export default function Projects() {
                             <p>JS/NodeJS/ExpressJS/HandlebarsJS/MySQL</p>
                         </section>
                 </a>
-                <a className='ghLink' id='ghLink2' href='https://github.com/AustinJoo97/Tech-Blog' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id='ghLink2' href='https://github.com/AustinJoo97/Tech-Blog' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
 
             <div className="projects" id="project3">
@@ -28,7 +28,7 @@ export default function Projects() {
                             <p>HandlebarsJS/Express/Sequelize/MySQL</p>
                         </section>
                 </a>
-                <a className='ghLink' id='ghLink3' href='https://github.com/AustinJoo97/WaitForWeightLoss' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id='ghLink3' href='https://github.com/AustinJoo97/WaitForWeightLoss' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
 
             <div className="projects" id="project4">
@@ -38,7 +38,7 @@ export default function Projects() {
                             <p>Javascript/OpenWeatherAPI/Boostrap/HTML/CSS</p>
                         </section>
                 </a>
-                <a className='ghLink' id='ghLink4' href='https://github.com/AustinJoo97/weatherReport-gwuhw6' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id='ghLink4' href='https://github.com/AustinJoo97/weatherReport-gwuhw6' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
 
             <div className="projects" id="project5">
@@ -48,7 +48,7 @@ export default function Projects() {
                         <p>Javascript/Express/Node.js/HTML/CSS</p>
                     </section>
                 </a>
-                <a className='ghLink' id='ghLink5' href='https://github.com/AustinJoo97/Note-Taker' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id='ghLink5' href='https://github.com/AustinJoo97/Note-Taker' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
             
             <div className="projects" id="project6">
@@ -58,7 +58,7 @@ export default function Projects() {
                         <p>Javascript/jQuery/MomentJS/Bootstrap/HTML</p>
                     </section>
                 </a>
-                <a className='ghLink' id='ghLink6' href='https://github.com/AustinJoo97/Work-Day-Scheduler-gwuhw5' target="_blank" rel="noreferrer">GitHub</a>
+                <a className='ghLink' id='ghLink6' href='https://github.com/AustinJoo97/Work-Day-Scheduler-gwuhw5' target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
 
             

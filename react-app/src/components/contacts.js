@@ -29,11 +29,19 @@ export default function Contacts(){
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
+
+        if(name.length === 0){
+          setErrorMessage('Please enter your name!')
+        }
     
         if (!emailValidator(email)) {
           setErrorMessage('Email is invalid!');
 
           return;
+        }
+
+        if(message.length === 0){
+          setErrorMessage('You have not entered a message!')
         }
 
         alert(`Thank you for the message ${name}! You will receive a response shortly!`);

@@ -6,7 +6,7 @@ function NavBarHeader({ history }){
     return (
         <nav>
             <div id="nameTag">
-                <Link className="links" id='myName' to="/aboutMe">
+                <Link className="links" id='myName' to="/">
                     <h1>Austin Joo</h1>
                 </Link>
             </div>
@@ -21,7 +21,7 @@ function NavBarHeader({ history }){
             </select>
 
             <div id="navDirectory">
-                <Link className="links navLinks" id='aboutMeButton' to='/aboutMe'>
+                <Link className="links navLinks" id='aboutMeButton' to='/'>
                     <h4>About Me</h4>
                 </Link>
 

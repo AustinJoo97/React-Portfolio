@@ -31,10 +31,10 @@ function App() {
                   <Resume />
                 </Route>
 
-                <Route exact path="*">
+                <Route exact path="/">
                   <AboutMe />
                 </Route>
-                
+
               </div>
               <Footer />
               <h4 id='sig'>&copy; Takashi Murakami</h4>
