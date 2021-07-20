@@ -11,7 +11,7 @@ import Footer from './components/footer';
 function App() {
   return (
       <div className="app" style={{width: '100%', height: '100%'}}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           
           <NavBarHeader />
 
