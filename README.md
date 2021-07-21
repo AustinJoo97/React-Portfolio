@@ -1,7 +1,7 @@
 # React-Portfolio 
 A remade portfolio existing as a sinlge page application that was designed using React.JS and JSX over simple html, css, and javascript
 
-## Deployed Project Link
+## Deployed Resume Link
 
 https://austinjoo97.github.io/React-Portfolio/
 
