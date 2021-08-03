@@ -53,7 +53,10 @@ export default function Contacts(){
 
     return(
         <div className="contactMe" id="contacts">
-            <form id='contactForm'>
+            <form action='mailto:austinjoo1997@gmail.com'
+            method='POST'
+            enctype='multipart/form-data'
+            id='contactForm'>
                 <label id='nameLabel'>Name: </label>
                 <br></br>
                 <input 
