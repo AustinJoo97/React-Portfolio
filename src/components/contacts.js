@@ -95,8 +95,15 @@ export default function Contacts(){
                 onClick={handleFormSubmit}>Submit</button>
             </form>
 
-            <h1>Please enter your contact information in the form on the left as well as your message and I will get back to you as soon as possible! Thank you!</h1>
-
+            {/* <h1>Please enter your contact information in the form on the left as well as your message and I will get back to you as soon as possible! Thank you!</h1> */}
+            <h1>👷This page is currently under development!👷
+            <br></br>
+            <br></br>
+            If you would like to contact me, please email me at <a href="mailto:austinjoo1997@gmail.com">austinjoo1997@gmail.com</a>!
+            <br></br>
+            <br></br>
+            Thank you for understanding!
+            </h1>
             {errorMessage && (
                 <div>
                 <p className="error-text">{errorMessage}</p>
