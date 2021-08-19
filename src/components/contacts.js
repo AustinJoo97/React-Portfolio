@@ -99,7 +99,7 @@ export default function Contacts(){
             <h1>👷This page is currently under development!👷
             <br></br>
             <br></br>
-            If you would like to contact me, please email me at <a href="mailto:austinjoo1997@gmail.com">austinjoo1997@gmail.com</a>!
+            If you would like to contact me, please email me Aat <a href="mailto:austinjoo1997@gmail.com">austinjoo1997@gmail.com</a>!
             <br></br>
             <br></br>
             Thank you for understanding!
