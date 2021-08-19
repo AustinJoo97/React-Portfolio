@@ -2,7 +2,7 @@ export default function AboutMe(){
     return (
         <div className="peronsalInfo" id="aboutMe">
             <p>
-                Hello! My name is Austin Joo. I am a recent software engineering graduate with intermediate-level knowledge of software design, development, and testing. I am always seeking to broaden my educational background with excellent analytical, problem-solving, technical, and programming skills. Additionally, I possess other soft skills including being bilingual in my ability to speak Korean, collaborative experience, multitasking, and effective time management.
+                Hello! My name is Austin Joo. I am a recent software engineering graduate with intermediate-level knowledge of software design, development, and testing. I am always seeking to broaden my educational background with excellent analytical, problem-solving, technical, and programming skills. Additionally, I possess other soft skills including being bilingual in my ability to speak Korean, as well as being well rounded with my collaborative experience, multitasking, and effective time management.
                 <br></br>
                 <br></br>
                 As a Full-Stack engineer, my technical skills are centered primarily around but not limited to the following: 
